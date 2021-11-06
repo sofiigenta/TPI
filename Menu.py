@@ -2,7 +2,7 @@ from Socios import socios
 import sys
 
 class Menu:
-    '''Mostrar un menú y responder a las opciones'''
+    #Mostrar un menú y responder a las opciones
 
     def __init__(self):
         self.planilla = socios()
@@ -17,7 +17,7 @@ class Menu:
         }
 
     def mostrar_menu(self):
-        '''Muestra el menú de opciones'''
+        #Muestra el menú de opciones
         print("""
 Menú del anotador:
 1. Mostrar todos los socios
@@ -30,7 +30,7 @@ Menú del anotador:
 """)
 
     def ejecutar(self):
-        '''Mostrar el menu y responder a las opciones.'''
+        #Mostrar el menu y responder a las opciones.
         while True:
             self.mostrar_menu()
             opcion = input("Ingresar una opción: ")
